@@ -2,10 +2,10 @@
   "name": "demo",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "go": "serve index.html",
-    "cy:view": "cypress open --e2e --browser chrome"
+    "go": "lite-server start",
+    "cy:view": "cypress open --e2e --browser chrome",
+    "cy": "cypress run --e2e --browser chrome"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,6 @@
   "description": "",
   "dependencies": {
     "cypress": "^10.4.0",
-    "serve": "^14.0.1"
+    "lite-server": "^2.6.1"
   }
 }
